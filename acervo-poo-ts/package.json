@@ -1,0 +1,17 @@
+{
+  "name": "acervo-poo-ts",
+  "version": "1.0.0",
+  "description": "Sistema de acervo (livros e jogos) em console, consolidando POO com TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.0"
+  }
+}
